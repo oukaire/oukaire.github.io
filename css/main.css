@@ -112,10 +112,10 @@
     body {
         height: 100%;
         background-color: #ffffff;
-        background-image: url("../images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bg.jpg");
-        background-image: url("../images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bg.jpg");
-        background-image: url("../images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bg.jpg");
-        background-image: url("../images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bg.jpg");
+        background-image: url("../images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bottom.jpg");
+        background-image: url("../images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bottom.jpg");
+        background-image: url("../images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bottom.jpg");
+        background-image: url("../images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bottom.jpg");
         background-repeat: repeat,          no-repeat,          no-repeat;
         background-size: 100px 100px, cover,                cover;
         background-position: top left,      center center,      bottom center;
@@ -1044,14 +1044,14 @@
         -webkit-backface-visibility: hidden;
         -ms-backface-visibility: hidden;
         backface-visibility: hidden;
-        -moz-transform: translate3d(0,0,0);
-        -webkit-transform: translate3d(0,0,0);
-        -ms-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,255,0);
+        -webkit-transform: translate3d(0,255,0);
+        -ms-transform: translate3d(0,255,0);
+        transform: translate3d(0,255,0);
 
-        background: #348cb2 url("../images/mv.jpg") bottom left;
+        background: rgba(255, 255, 255, 0.1) url("../images/bg.png") bottom left;
         background-repeat: repeat-x;
-        height: 100%;
+        height: 80%;
         left: 0;
         opacity: 1;
         position: fixed;
