@@ -4,6 +4,7 @@
 
 - [x] Responsive Tools
 - [x] Sass
+- [ ] Fonts: palatino, check out: https://yihui.name/knitr/faq/
 
 ## [License]
 
