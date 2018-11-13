@@ -1,4 +1,4 @@
-# <a href="https://oukaire.github.io/"><img src="favicon.ico" alt="" /></a>
+# <a href="https://oukaire.github.io/"><img src="favicon.ico" alt="" width="64"/>My Homepage</a>
 
 ## TODO
 
