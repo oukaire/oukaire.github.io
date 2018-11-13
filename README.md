@@ -1,4 +1,4 @@
-# <a href="https://oukaire.github.io/"><img src="favicon.ico" alt="" width="64"/>My Homepage</a>
+# <a href="https://oukaire.github.io/"><img src="favicon.ico" alt="" width="16"/>  My Homepage</a>
 
 ## TODO
 
@@ -7,9 +7,9 @@
 
 ## [License]
 
-Identity by [HTML5 UP]
-Free for personal and commercial use under the CCA 3.0 [license] 
-by AJ  
+Identity by [HTML5 UP]  
+Free for personal and commercial use under the CCA 3.0 [license]  
+by AJ   
 aj@lkn.io | @ajlkn
 
 ## Credits
