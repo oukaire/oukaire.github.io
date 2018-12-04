@@ -8,11 +8,11 @@
 ## [License]
 
 Identity by [HTML5 UP]  
-Free for personal and commercial use under the CCA 3.0 [license]  
+Free for personal and commercial use under the CCA 3.0 [license][1]  
 by AJ   
 aj@lkn.io | @ajlkn
 
-## Credits
+## Thanks to
 
 * Demo Images: [Unsplash], a radtastic collection of CC0 (public domain) images
 * Icons: [Font Awesome]
@@ -20,7 +20,7 @@ aj@lkn.io | @ajlkn
 * [Sketches]
 
 [License]: LICENSE
-[license]: https://html5up.net/license
+[1]: https://html5up.net/license
 [HTML5 UP]: https://html5up.net/
 [Font Awesome]: https://fontawesome.com/?from=io
 [Responsive Tools]: https://github.com/ajlkn/responsive-tools
