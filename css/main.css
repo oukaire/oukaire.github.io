@@ -100,7 +100,7 @@ html {
 
 body {
     height: 100%;
-    background-color: #000000;
+    background-color: black;
     background-image: url("../images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.8) 5%, rgba(0, 228, 255, 0.2)), url("../images/bg.jpg");
     background-image: url("../images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.8) 5%, rgba(0, 228, 255, 0.2)), url("../images/bg.jpg");
     background-image: url("../images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.8) 5%, rgba(0, 228, 255, 0.2)), url("../images/bg.jpg");
@@ -139,13 +139,13 @@ body {
 
 /* Type */
 body, input, select, textarea {
-    color: #000000;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #414f57;
+    font-family: "Source Sans Pro", sans-serif, Helvetica;
     font-size: 14pt;
     font-weight: 300;
     line-height: 2;
     letter-spacing: 0.1em;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
 }
     @media screen and (max-width: 1680px) {
         body, input, select, textarea {
@@ -245,8 +245,8 @@ sup {
 
 hr {
     border: 0;
-    border-bottom: solid 1px #c8cccf;
-    margin: 1.5em 0;
+    border-top: 1px solid #c8cccf;
+    margin: 10px 0;
 }
 
 /* Form */
@@ -632,12 +632,23 @@ ul.actions {
                     }
     }
 
+/* bar */
+nav {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+    nav.bar a {
+        margin: 0 1em;
+    }
+
 /* Icons */
 ul.icons {
     cursor: default;
     list-style: none;
     padding-left: 0;
-    margin-top: -0.675em;
+    margin-top: 0em;
 }
     ul.icons li {
         display: inline-block;
@@ -783,7 +794,7 @@ button,
     -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
     -ms-transition: opacity 1s ease, -ms-transform 1s ease;
     transition: opacity 1s ease, transform 1s ease;
-    padding: 4.5em 3em 0em;
+    padding: 3em 3em 0em;
     background: #ffffff;
     border-radius: 4px;
     cursor: default;
@@ -904,8 +915,6 @@ button,
     body.is-ie #wrapper {
         height: 100%;
     }
-
-/**************************************************************/
 
 /* BG */
 #bg {
