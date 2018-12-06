@@ -140,7 +140,7 @@ body {
 /* Type */
 body, input, select, textarea {
     color: #414f57;
-    font-family: "Source Sans Pro", sans-serif, Helvetica;
+    font-family: Palatino, 'Songti SC', 'Source Sans Pro', sans-serif;
     font-size: 14pt;
     font-weight: 300;
     line-height: 2;
@@ -802,7 +802,7 @@ button,
     opacity: 0.95;
     position: relative;
     text-align: center;
-    width: 29em;
+    width: 33.2em;
 }
     #main .avatar {
         position: relative;
