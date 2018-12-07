@@ -68,6 +68,10 @@ input, select, textarea {
     appearance: none;
 }
 
+code {
+    font-family: monospace;
+}
+
 /* Basic */
 @media screen and (max-width: 480px) {
     html, body {
