@@ -149,7 +149,6 @@ body, input, select, textarea {
     font-weight: 300;
     line-height: 2;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
 }
     @media screen and (max-width: 1680px) {
         body, input, select, textarea {
@@ -807,6 +806,7 @@ button,
     position: relative;
     text-align: center;
     width: 33.2em;
+    text-transform: uppercase;
 }
     #main .avatar {
         position: relative;
