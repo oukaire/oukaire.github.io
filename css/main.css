@@ -1069,8 +1069,8 @@ button,
         }
     }
     #bg {
-        background-size: 1500px auto;
-        width: 4500px;
+        background-size: 1000px auto;
+        width: 2250px;
     } 
 }
 
@@ -1138,7 +1138,7 @@ button,
         }
     }
     #bg {
-        background-size: 750px auto;
+        background-size: 900px auto;
         width: 2250px;
     }
 }

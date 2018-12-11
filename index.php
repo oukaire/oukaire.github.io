@@ -4,8 +4,10 @@
         <title>Onyi Ukay</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/main.css" />
         <noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+        <script src="src/main.js" type="text/javascript"></script>
     </head>
     <body class="is-preload">
         <div id="bg"></div>
@@ -25,18 +27,16 @@
 
                 <footer>
                     <ul class="icons">
-                      <li><a href="https://www.linkedin.com/in/oukaire/" class="fa-linkedin" target="_blank"></a></li>
-                      <li><a href="https://www.instagram.com/oukaire/" class="fa-instagram" target="_blank"></a></li>
+                      <li><a href="https://linkedin.com/in/oukaire" class="fa-linkedin" target="_blank"></a></li>
+                      <li><a href="https://instagram.com/oukaire" class="fa-instagram" target="_blank"></a></li>
                       <li><a href="https://twitter.com/oukaire" class="fa-twitter" target="_blank"></a></li>
                       <li><a href="https://github.com/oukaire" class="fa-github" target="_blank"></a></li>
-                      <li><a href="https://www.facebook.com/oukaire" class="fa-facebook" target="_blank"></a></li>
+                      <li><a href="https://facebook.com/oukaire" class="fa-facebook" target="_blank"></a></li>
                     </ul>
                 </footer>
             </section>
 
-            <section id="about">
-                Here. Playright
-            </section>
+            <?php include 'html/about.html';?>
 
             <footer id="footer">
                 <ul class="copyright">
@@ -44,7 +44,6 @@
                     <li>Theme: <a href="https://html5up.net/identity" target="_blank">HTML5 UP</a></li>
                 </ul>
             </footer>
-        </div>  `
-        <script src="src/main.js" type="text/javascript"></script>
+        </div>
     </body>
 </html>
