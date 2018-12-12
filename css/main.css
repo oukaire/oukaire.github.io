@@ -635,14 +635,14 @@ ul.actions {
                     }
     }
 
-/* bar */
+/* nav-links */
 nav {
     border-top: 1px solid #dedede;
     border-bottom: 1px solid #dedede;
     margin-bottom: 10px;
     padding: 10px 0;
 }
-    nav.bar a {
+    nav a {
         margin: 0 1em;
     }
 
@@ -783,6 +783,17 @@ button,
         opacity: 0.5;
     }
 
+/* Card */
+.card {
+    background: #ffffff;
+    border-radius: 4px;
+    cursor: default;
+    max-width: 100%;
+    opacity: 0.95;
+    position: relative;
+    width: 33.2em;
+}
+
 /* Main */
 #main {
     -moz-transform-origin: 50% 50%;
@@ -797,16 +808,9 @@ button,
     -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
     -ms-transition: opacity 1s ease, -ms-transform 1s ease;
     transition: opacity 1s ease, transform 1s ease;
-    padding: 3em 3em 0em;
-    background: #ffffff;
-    border-radius: 4px;
-    cursor: default;
-    max-width: 100%;
-    opacity: 0.95;
-    position: relative;
-    text-align: center;
-    width: 33.2em;
     text-transform: uppercase;
+    padding: 3em 3em 0em;
+    text-align: center;
 }
     #main .avatar {
         position: relative;
@@ -841,10 +845,10 @@ button,
                 }
         }
         body.is-preload #main {
-            -moz-transform: rotateX(30deg);
-            -webkit-transform: rotateX(30deg);
-            -ms-transform: rotateX(30deg);
-            transform: rotateX(30deg);
+            -moz-transform: rotateY(200deg);
+            -webkit-transform: rotateY(200deg);
+            -ms-transform: rotateY(200deg);
+            transform: rotateY(200deg);
             opacity: 0;
         }
 

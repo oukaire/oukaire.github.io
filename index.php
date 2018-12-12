@@ -4,24 +4,29 @@
         <title>Onyi Ukay</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta name="author" content="Onyi Ukay" />
+        <meta name="date" content="2018-12-12" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/back.css" />
         <noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="src/main.js" type="text/javascript"></script>
+        <script src="src/card.js" type="text/javascript"></script>
     </head>
     <body class="is-preload">
         <div id="bg"></div>
         <div id="wrapper">
-            <section id="main">
+            <section id="main" class="card">
                 <header>
                     <span class="avatar"><img src="images/me.png" alt="" /></span>
                     <h1>ONYI UKAY</h1>
                     <p>Research Technician at <a href="http://www.ragoninstitute.org/">Ragon Institute</a></p>
                 </header>
 
-                <nav class="bar">
-                  <a href="#about">about</a>
-                  <a href="#">resume</a>
+                <nav>
+                  <a class="more" href="#about">about</a>
+                  <a class="more" href="#resume">resume</a>
                   <a href="mailto:oukaire@mgh.harvard.edu?subject=feedback">email me</a>
                 </nav>
 
@@ -36,7 +41,7 @@
                 </footer>
             </section>
 
-            <?php include 'html/about.html';?>
+            <?php include 'html/back.html';?>
 
             <footer id="footer">
                 <ul class="copyright">
