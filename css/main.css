@@ -124,7 +124,7 @@ body {
         height: inherit;
         opacity: 0;
         z-index: 1;
-        background-color: #ffffff;
+        background-color: white;
         background-image: url("../images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.83) 5%, rgba(0, 228, 255, 0.2)), url("../images/bg.jpg");
         background-image: url("../images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.83) 5%, rgba(0, 228, 255, 0.2)), url("../images/bg.jpg");
         background-image: url("../images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.83) 5%, rgba(0, 228, 255, 0.2)), url("../images/bg.jpg");
@@ -181,7 +181,7 @@ a {
     }
 
 strong, b {
-    color: #000000;
+    color: black;
 }
 
 em, i {
@@ -193,7 +193,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #000000;
+    color: black;
     line-height: 1.5;
     margin: 0 0 0.75em 0;
 }
@@ -313,7 +313,7 @@ form {
     }
 
 label {
-    color: #000000;
+    color: black;
     display: block;
     font-size: 0.9em;
     margin: 0 0 0.75em 0;
@@ -365,8 +365,8 @@ select {
     text-overflow: ellipsis;
 }
     select option {
-        color: #000000;
-        background: #ffffff;
+        color: black;
+        background: white;
     }
     select:focus::-ms-value {
         background-color: transparent;
@@ -782,75 +782,6 @@ button,
         pointer-events: none;
         opacity: 0.5;
     }
-
-/* Card */
-.card {
-    background: #ffffff;
-    border-radius: 4px;
-    cursor: default;
-    max-width: 100%;
-    opacity: 0.95;
-    position: relative;
-    width: 33.2em;
-}
-
-/* Main */
-#main {
-    -moz-transform-origin: 50% 50%;
-    -webkit-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    -moz-transform: rotateX(0deg);
-    -webkit-transform: rotateX(0deg);
-    -ms-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
-    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
-    transition: opacity 1s ease, transform 1s ease;
-    text-transform: uppercase;
-    padding: 3em 3em 0em;
-    text-align: center;
-}
-    #main .avatar {
-        position: relative;
-        display: block;
-        margin-bottom: 1.5em;
-    }
-        #main .avatar img {
-            display: block;
-            margin: 0 auto;
-            border-radius: 100%;
-            box-shadow: 0 0 0 1.5em #ffffff;
-        }
-        #main .avatar:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 50%;
-            left: -3em;
-            width: calc(100% + 6em);
-            height: 1px;
-            z-index: -1;
-            background: #c8cccf;
-        }
-        @media screen and (max-width: 480px) {
-            #main {
-                padding: 4em 2em 2.5em 0em ;
-                width: 100%;
-            }
-                #main .avatar:before {
-                    left: -2em;
-                    width: calc(100% + 4em);
-                }
-        }
-        body.is-preload #main {
-            -moz-transform: rotateY(200deg);
-            -webkit-transform: rotateY(200deg);
-            -ms-transform: rotateY(200deg);
-            transform: rotateY(200deg);
-            opacity: 0;
-        }
 
 /* Footer */
 #footer {

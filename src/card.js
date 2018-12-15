@@ -1,5 +1,4 @@
-$(document).ready(() => {
-    $(".more").click(() => {
-        $("#main").css({"transform" : "rotateY(-180deg)", "content" : ""});
-    });
-});
+const flip = () => {
+	$('.card').toggleClass('flipped');
+	/* add return false; -- better browser compatibility */
+}
