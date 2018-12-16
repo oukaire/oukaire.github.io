@@ -1,4 +1,4 @@
-# [Homepage ![](./images/favicon.ico =32x)][home]
+# [![](./images/favicon.ico =32x)][home]
 
 <!-- <a href="https://oukaire.github.io/">Homepage<img src="images/favicon.ico" alt="" width="32"/></a> -->
 
