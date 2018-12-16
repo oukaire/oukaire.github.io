@@ -1,6 +1,4 @@
-# [![Build Status](images/favicon.ico =32x)][home]
-
-<!-- <a href="https://oukaire.github.io/">Homepage<img src="images/favicon.ico" alt="" width="32"/></a> -->
+# <a href="https://oukaire.github.io/">Homepage<img src="images/favicon.ico" alt width="32"/></a>
 
 ## TODO
 
@@ -22,8 +20,6 @@ aj@lkn.io | @ajlkn
 * Other: [Responsive Tools]
 * [Sketches]
 
-[home]: https://oukaire.github.io/
-[logo]: 
 [License]: LICENSE
 [1]: https://html5up.net/license
 [HTML5 UP]: https://html5up.net/
