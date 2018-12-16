@@ -1,4 +1,4 @@
-# [![Build Status](images/favicon.ico)](https://travis-ci.org/joemccann/dillinger)
+# [![Build Status](images/favicon.ico =32x)][home]
 
 <!-- <a href="https://oukaire.github.io/">Homepage<img src="images/favicon.ico" alt="" width="32"/></a> -->
 
