@@ -1,8 +1,8 @@
 .board {
     background-color: transparent;
-    width: 33.2em;
+    width: 50.5em; /* 33.2em */
     height: 30em;
-    perspective: 1000px; /* change to none */
+    perspective: 1000px;
 }
 
 .card {
@@ -13,6 +13,10 @@
     transition: transform 0.6s;
     transform-style: preserve-3d;
 }
+    .card h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
 
 .face {
     position: absolute;
@@ -34,10 +38,10 @@
     -webkit-transform: rotateX(0deg);
     -ms-transform: rotateX(0deg);
     transform: rotateX(0deg);
-    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
-    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
-    transition: opacity 1s ease, transform 1s ease;
+    -moz-transition: opacity 0.6s ease, -moz-transform 0.6s ease;
+    -webkit-transition: opacity 0.6s ease, -webkit-transform 0.6s ease;
+    -ms-transition: opacity 0.6s ease, -ms-transform 0.6s ease;
+    transition: opacity 0.6s ease, transform 0.6s ease;
     text-transform: uppercase;
     text-align: center;
     z-index: 2;
@@ -75,18 +79,48 @@
                 }
         }
         body.is-preload .front {
-            -moz-transform: rotateX(300deg);
-            -webkit-transform: rotateX(300deg);
-            -ms-transform: rotateX(300deg);
-            transform: rotateX(300deg);
+            -moz-transform: rotateX(69deg);
+            -webkit-transform: rotateX(69deg);
+            -ms-transform: rotateX(69deg);
+            transform: rotateX(69deg);
             opacity: 0;
         }
-
-.back {
-    transform: rotateY(-180deg);
-    z-index: 1;
-}
 
 .card.flipped {
     transform: rotateY(-180deg);
 }
+
+.back {
+    transform: rotateY(-180deg);
+    z-index: 1;
+    padding: 2em 3em 0em;
+}
+    .back footer {
+        line-height: 0.4em;
+    }
+
+.content {
+    height: 20em;
+    overflow: auto;
+    /* border-top: 1px solid #c8cccf;
+    border-bottom: 1px solid #c8cccf; */
+    padding: 1em 0.5em 1em 0em;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.4em;
+    letter-spacing: normal;
+    margin-bottom: 0px;
+}
+    .content h3 {
+        font-weight: bold;
+    }
+    .content a {
+        color: #ff7496;
+    }
+        .content a:visited {
+            color: #24ace2;
+        }
+        .content a:hover {
+            color: inherit;
+            text-decoration: underline;
+        }

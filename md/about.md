@@ -1,11 +1,3 @@
-
-<!-- 
----layout: page
-title: About
-permalink: /about/
----
--->
-
 ### Background
 I was born in Abuja, Nigeria where I completed most of my early schooling. I graduated from [Federal Government Academy](http://www.fgasuleja.com.ng) in 2012 and [African Leadership Academy](http://www.africanleadershipacademy.org) in 2014.
 
