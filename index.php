@@ -16,8 +16,8 @@
     <div id="wrapper">
       <div class="board">
         <div class="card">
-          <?php include 'html/front.html';?>
-          <?php include 'html/back.html';?>
+          <?php include 'html/front.html'; ?>
+          <?php include 'html/back.html'; ?>
         </div>
       </div>
 

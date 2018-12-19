@@ -1,11 +1,11 @@
-.board {
+.book {
     background-color: transparent;
-    width: 50.5em; /* 33.2em */
-    height: 30em;
+    width: 50.5em;
+    height: 35em;
     perspective: 1000px;
 }
 
-.card {
+.leaf {
     width: 100%;
     height: 100%;
     position: relative;
@@ -13,12 +13,12 @@
     transition: transform 0.6s;
     transform-style: preserve-3d;
 }
-    .card h2 {
+    .leaf h2 {
         text-transform: uppercase;
         font-weight: bold;
     }
 
-.face {
+.first {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -125,17 +125,21 @@
             text-decoration: underline;
         }
 
-/* Footer */
 #footer {
     -moz-align-self: -moz-flex-end;
     -webkit-align-self: -webkit-flex-end;
     -ms-align-self: -ms-flex-end;
     align-self: flex-end;
     width: 100%;
-    padding: 1.5em 0 0 0;
+    padding: 1em 0 1em 0;
     color: rgba(255, 255, 255, 0.95);
     cursor: default;
     text-align: center;
+
+
+
+    color: red;
+    border: 1px solid #24ace2;
 }
     #footer .copyright {
         margin: 0;
