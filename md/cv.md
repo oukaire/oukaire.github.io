@@ -1,7 +1,6 @@
-ONYINYECHI UKAIRE   
-20 Sawyer Avenue  
-Medford, MA 02155    
-+1 (617) 833-1649  
+Onyinyechi Ukaire  
+400 Technology Square  
+Cambridge, MA 02139
 
 ### Education
 
