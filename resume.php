@@ -18,7 +18,7 @@
         <div class="leaf">
           <section class="first" id="cv">
             <h2>Curriculum Vitae</h2>
-
+            
             <div class="content">
               <?php include 'html/cv.html'; ?>
             </div>
@@ -34,6 +34,6 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="src/main.js" type="text/javascript"></script>
-    <script src="src/card.js" type="text/javascript"></script>
+    <script src="src/leaf.js" type="text/javascript"></script>
   </body>
 </html>
