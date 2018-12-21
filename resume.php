@@ -25,7 +25,7 @@
 
             <footer id="footer">
               <ul class="icons">
-               <li><a href="#" class="fa-home" role="button" onclick="flip()"></a></li>
+               <li><a href="index.php" class="fa-home" role="button"></a></li>
               </ul>
               <ul class="copyright">
                 <li>&copy; 2018 Onyi Ukay</li>

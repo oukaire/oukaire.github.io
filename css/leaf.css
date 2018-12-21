@@ -85,8 +85,8 @@
     text-align: left;
     line-height: 1.4em;
     letter-spacing: normal;
-    border-top: 1px solid #414f5740;
-    border-bottom: 1px solid #414f5740;
+    border-top: 1px solid #c8cccf;
+    border-bottom: 1px solid #c8cccf;
 }
     .content #address {
         text-align: center;
@@ -130,7 +130,7 @@
             display: inline-block;
             margin: 0 0 0 0.35em;
             padding: 0 0 0 0.85em;
-            border-left: solid 1px #414f5740;
+            border-left: solid 1px #c8cccf;
             line-height: 1.4em;
         }
             #footer .copyright li:first-child {

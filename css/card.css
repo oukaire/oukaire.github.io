@@ -26,7 +26,6 @@
     opacity: 0.95;
     background: white;
     border-radius: 4px;
-    padding: 3em 3em 0em;
 }
 
 .front {
@@ -45,6 +44,7 @@
     text-transform: uppercase;
     text-align: center;
     z-index: 2;
+    padding: 3em 3em 0;
 }
     .front .avatar {
         position: relative;
@@ -93,24 +93,23 @@
 .back {
     transform: rotateY(-180deg);
     z-index: 1;
-    padding: 2em 3em 0em;
+    padding: 1.3em 0 0;
 }
     .back .icons {
-        line-height: 0em;
-        border-top: 0.1px solid #c8cccf;
+        line-height: 0;
     }
 
 .content {
     height: calc(100% - 7em);
     overflow: auto;
-    /* border-top: 1px solid #c8cccf;
-    border-bottom: 1px solid #c8cccf; */
-    padding: 0em 0.5em 1em 0em;
+    padding: 0.4em 3.5em 1em 3em;
     text-align: left;
     font-size: 1em;
     line-height: 1.4em;
     letter-spacing: normal;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    border-top: 1px solid #c8cccf;
+    border-bottom: 1px solid #c8cccf;
 }
     .content h3 {
         font-weight: bold;
