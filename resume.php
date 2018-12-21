@@ -8,7 +8,7 @@
     <meta name="date" content="2018-12-12" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/resume.css" />
+    <link rel="stylesheet" href="css/leaf.css" />
     <noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
   </head>
   <body class="is-preload">
@@ -18,15 +18,19 @@
         <div class="leaf">
           <section class="first" id="cv">
             <h2>Curriculum Vitae</h2>
-            
+
             <div class="content">
               <?php include 'html/cv.html'; ?>
             </div>
 
             <footer id="footer">
-              <div class="copyright">&copy; 2018 Onyi Ukay |
-                Theme: <a href="https://html5up.net/identity" target="_blank">HTML5 UP
-              </div>
+              <ul class="icons">
+               <li><a href="#" class="fa-home" role="button" onclick="flip()"></a></li>
+              </ul>
+              <ul class="copyright">
+                <li>&copy; 2018 Onyi Ukay</li>
+                <li>Theme: <a href="https://html5up.net/identity" target="_blank">HTML5 UP</a></li>
+              </ul>
             </footer>
           </section>
         </div>
