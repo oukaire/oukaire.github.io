@@ -17,7 +17,7 @@
       <div class="book">
         <div class="leaf">
           <section class="first" id="cv">
-            <h2>Curriculum Vitae</h2>
+            <h2>curriculum vitae</h2>
 
             <div class="content">
               <?php include 'html/cv.html'; ?>
@@ -30,6 +30,18 @@
               <ul class="copyright">
                 <li>&copy; 2018 Onyi Ukay</li>
                 <li>Theme: <a href="https://html5up.net/identity" target="_blank">HTML5 UP</a></li>
+              </ul>
+            </footer>
+          </section>
+
+          <section class="second">
+            <h2>courses</h2>
+            <div class="content">
+              <?php include 'html/courses.html'; ?>
+            </div>
+            <footer id="footer">
+              <ul class="icons">
+               <li><a href="#" class="fa-hand-o-left" role="button" onclick="flip()"></a></li>
               </ul>
             </footer>
           </section>

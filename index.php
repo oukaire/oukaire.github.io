@@ -20,13 +20,7 @@
           <?php include 'html/back.html'; ?>
         </div>
       </div>
-
-      <footer id="footer">
-        <ul class="copyright">
-          <li>&copy; 2018 Onyi Ukay</li>
-          <li>Theme: <a href="https://html5up.net/identity" target="_blank">HTML5 UP</a></li>
-        </ul>
-      </footer>
+      <?php include 'html/footer.html'; ?>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="src/main.js" type="text/javascript"></script>
