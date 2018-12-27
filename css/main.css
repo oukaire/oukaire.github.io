@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+@import url("https://fonts.googleapis.com/css?family=Alegreya:400,400i,700&amp;subset=greek,latin-ext");
 
 /* Icon (alt) */
 html, body, div, span, applet, object,
@@ -144,7 +144,7 @@ body {
 /* Type */
 body, input, select, textarea {
     color: #414f57;
-    font-family: Palatino, 'Songti SC', 'Source Sans Pro', sans-serif;
+    font-family: 'Alegreya', Palatino, serif, 'Songti SC';
     font-size: 14pt;
     font-weight: 300;
     line-height: 2;
@@ -814,7 +814,7 @@ button,
     padding: 1.5em;
     z-index: 2;
 }
-    #wrapper > * {
+    #wrapper * {
         z-index: 1;
     }
     #wrapper:before {

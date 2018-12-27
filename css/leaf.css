@@ -1,13 +1,13 @@
 #wrapper {
-  padding: 0.1em;
+  /* padding: 0.1em; */
 }
 
 .book {
     background-color: transparent;
     width: calc(100% - 20em);
     height: 100%;
-    perspective: 1000px;
-    margin: 0;
+    height: 80%; /* change back to 100% */
+    perspective: 40em; /* change back to 1000px? */
 }
 
 .leaf {
@@ -72,7 +72,6 @@
 .second {
     transform: rotateY(-180deg);
     z-index: 1;
-    padding: 2em 3em 0em;
 }
     .second footer {
         line-height: 0.4em;

@@ -5,7 +5,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="author" content="Onyi Ukay" />
-    <meta name="date" content="2018-12-12" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/card.css" />

@@ -4,7 +4,6 @@
 
 - [x] Responsive Tools
 - [x] Sass
-- [ ] Fonts: 
 
 ## [License]
 
@@ -19,6 +18,7 @@ aj@lkn.io | @ajlkn
 * Icons: [Font Awesome]
 * Other: [Responsive Tools]
 * [Sketches]
+* Fonts: Seyi Adediwura for Google fonts recommendation
 
 [License]: LICENSE
 [1]: https://html5up.net/license

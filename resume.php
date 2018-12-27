@@ -5,7 +5,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="author" content="Onyi Ukay" />
-    <meta name="date" content="2018-12-12" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/leaf.css" />
@@ -16,13 +15,12 @@
     <div id="wrapper">
       <div class="book">
         <div class="leaf">
+
           <section class="first" id="cv">
             <h2>curriculum vitae</h2>
-
             <div class="content">
               <?php include 'html/cv.html'; ?>
             </div>
-
             <footer id="footer">
               <ul class="icons">
                <li><a href="index.php" class="fa-home" role="button"></a></li>
@@ -45,6 +43,7 @@
               </ul>
             </footer>
           </section>
+
         </div>
       </div>
     </div>

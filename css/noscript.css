@@ -2,7 +2,7 @@ body::after {
     display: none;
 }
 
-#main {
+.front, .back, .first, .second {
     -moz-transform: none !important;
     -webkit-transform: none !important;
     -ms-transform: none !important;
