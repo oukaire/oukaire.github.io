@@ -1,12 +1,12 @@
 #wrapper {
-  /* padding: 0.1em; */
+  padding: 0.1em;
 }
 
 .book {
     background-color: transparent;
     width: calc(100% - 20em);
     height: 100%;
-    height: 80%; /* change back to 100% */
+    height: 100%; /* change back to 100% */
     perspective: 40em; /* change back to 1000px? */
 }
 
