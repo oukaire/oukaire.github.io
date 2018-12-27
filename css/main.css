@@ -814,7 +814,7 @@ button,
     padding: 1.5em;
     z-index: 2;
 }
-    #wrapper * {
+    #wrapper > * {
         z-index: 1;
     }
     #wrapper:before {
