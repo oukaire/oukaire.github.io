@@ -30,6 +30,7 @@
     height: 100%;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
     opacity: 0.95;
     background: white;
     border-radius: 4px;
@@ -80,13 +81,13 @@
 
 .content {
     height: calc(100% - 7.5em);
-    overflow: auto;
     padding: 0.5em 4.5em 1em 4em;
     text-align: left;
     line-height: 1.4em;
     letter-spacing: normal;
     border-top: 1px solid #c8cccf;
     border-bottom: 1px solid #c8cccf;
+    overflow: auto;
 }
     .content #address {
         text-align: center;
