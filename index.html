@@ -15,11 +15,59 @@
     <div id="wrapper">
       <div class="board">
         <div class="card">
-          <?php include 'html/front.html'; ?>
-          <?php include 'html/back.html'; ?>
+          <section class="front">
+            <header>
+              <span class="avatar"><img src="images/me.png" alt="" /></span>
+              <h1>ONYI UKAY</h1>
+              <p>Research Technician at <a href="http://www.ragoninstitute.org/">Ragon Institute of MGH, MIT and Harvard</a></p>
+            </header>
+
+            <nav>
+              <a onclick="flip('.card')" href="#" role="button">about</a>
+              <a href="resume.html">resume</a>
+              <a href="mailto:oukaire@mgh.harvard.edu?subject=feedback">email me</a>
+            </nav>
+
+            <footer>
+              <ul class="icons">
+                <li><a href="https://linkedin.com/in/oukaire" class="fa-linkedin" target="_blank"></a></li>
+                <li><a href="https://instagram.com/oukaire" class="fa-instagram" target="_blank"></a></li>
+                <li><a href="https://twitter.com/oukaire" class="fa-twitter" target="_blank"></a></li>
+                <li><a href="https://github.com/oukaire" class="fa-github" target="_blank"></a></li>
+                <li><a href="https://facebook.com/oukaire" class="fa-facebook" target="_blank"></a></li>
+              </ul>
+            </footer>
+          </section>
+
+          <section class="back" id="about">
+            <h2>About</h2>
+            <div class="content">
+              <h3 id="background">Background</h3>
+              <p>I was born in Abuja, Nigeria where I completed most of my early schooling. I graduated from <a href="http://www.fgasuleja.com.ng">Federal Government Academy</a> in 2012 and <a href="http://www.africanleadershipacademy.org">African Leadership Academy</a> in 2014.</p>
+              <h3 id="abridged-autobiography">Abridged Autobiography</h3>
+              <p>Coming from a humble background, Ukay is thankful to have been exposed to a wealth of experiences that makes him demonstrate servant leadership. He acknowledges that despite his hard-work and pursuit, his personal journey would have not been possible without help from many teachers, tutors and friends. He brings energy to a team, as he is a fun conversationalist, facilitator and pace-setter.</p>
+              <h3 id="favorite-sports-and-teams">Favorite Sports and Teams</h3>
+              <p><a href="https://www.fifa.com/worldcup/">FIFA world cup Russia 2018</a>, go Belgium!</p>
+              <p>With gleeful gusto, I root for FC Barcelona. Talk about Carles Puyol, Ronaldinho, Deco or any player on the 2005 ticki tacka squad, and we'd have a nostalgic laugh.</p>
+              <p>Thanks to Tufts and living in Boston area for four years, I support the <a href="https://www.patriots.com">New England Patriots</a> as well as <a href="https://www.nba.com/celtics/">Boston Celtics</a>. I seldom follow tennis and golf : go Roger Federer, go Roy Mcllroy!</p>
+              <h3 id="hobbies">Hobbies</h3>
+              <p>I play football at least once every week and table-tennis once every other week. Outside sports, I'm a dance enthusiast. My favorite piece was improvised; it was one winter when, in a particularly stressful week during sophomore year, Tufts permitted a snow day. How happy I was to climb my side stool, rotate my hips and do a head swivel, only to realise five minutes later that there was no music.</p>
+              <p>I have a 30-minute daily routine of stepping out of my comfort zone to learn something new; that's how I fell in love with <a href="https://aeon.co">Aeon</a>. I love playing video games when I have loads of free time - rarely. I do not often read literary books, but I enjoy reading scientific papers, technical journals, and periodicals to remain current.</p>
+            </div>
+            <footer>
+              <ul class="icons">
+               <li><a href="#" class="fa-home" role="button" onclick="flip('.card')"></a></li>
+              </ul>
+            </footer>
+          </section>
         </div>
       </div>
-      <?php include 'html/footer.html'; ?>
+      <footer id="footer">
+        <ul class="copyright">
+          <li>&copy; 2018 Onyi Ukay</li>
+          <li>Theme: <a href="https://html5up.net/identity" target="_blank">HTML5 UP</a></li>
+        </ul>
+      </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="src/main.js" type="text/javascript"></script>
