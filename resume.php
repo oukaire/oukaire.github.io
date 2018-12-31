@@ -21,13 +21,9 @@
             <div class="content">
               <?php include 'html/cv.html'; ?>
             </div>
-            <footer id="footer">
+            <footer>
               <ul class="icons">
                <li><a href="index.php" class="fa-home" role="button"></a></li>
-              </ul>
-              <ul class="copyright">
-                <li>&copy; 2018 Onyi Ukay</li>
-                <li>Theme: <a href="https://html5up.net/identity" target="_blank">HTML5 UP</a></li>
               </ul>
             </footer>
           </section>
@@ -37,7 +33,7 @@
             <div class="content">
               <?php include 'html/courses.html'; ?>
             </div>
-            <footer id="footer">
+            <footer>
               <ul class="icons">
                <li><a href="#" class="fa-hand-o-left" role="button" onclick="flip()"></a></li>
               </ul>
@@ -46,6 +42,7 @@
 
         </div>
       </div>
+      <?php include 'html/footer.html'; ?>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="src/main.js" type="text/javascript"></script>
