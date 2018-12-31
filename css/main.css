@@ -857,12 +857,12 @@ button,
         height: 100%;
     }
 
-/* BG */
-#bg {
-    -moz-animation: bg 79s linear infinite;
-    -webkit-animation: bg 79s linear infinite;
-    -ms-animation: bg 79s linear infinite;
-    animation: bg 79s linear infinite;
+/* SLIDE */
+#slide {
+    -moz-animation: slide 79s linear infinite;
+    -webkit-animation: slide 79s linear infinite;
+    -ms-animation: slide 79s linear infinite;
+    animation: slide 79s linear infinite;
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
@@ -872,15 +872,15 @@ button,
     -ms-transform: translate3d(0,255,0);
     transform: translate3d(0,255,0);
 
-    background: rgba(255, 255, 255, 0) url("../images/bg.png") bottom left;
+    background: rgba(255, 255, 255, 0) url("../images/slide.png") bottom left;
     background-repeat: repeat-x;
     height: 75%;
-    left: 0;
-    opacity: 1;
     position: fixed;
     top: 0;
+    left: 0;
+    opacity: 1;
 }
-    @-moz-keyframes bg {
+    @-moz-keyframes slide {
         0% {
             -moz-transform: translate3d(0,0,0);
             -webkit-transform: translate3d(0,0,0);
@@ -894,7 +894,7 @@ button,
             transform: translate3d(-2250px,0,0);
         }
     }
-    @-webkit-keyframes bg {
+    @-webkit-keyframes slide {
         0% {
             -moz-transform: translate3d(0,0,0);
             -webkit-transform: translate3d(0,0,0);
@@ -908,7 +908,7 @@ button,
             transform: translate3d(-2250px,0,0);
         }
     }
-    @-ms-keyframes bg {
+    @-ms-keyframes slide {
         0% {
             -moz-transform: translate3d(0,0,0);
             -webkit-transform: translate3d(0,0,0);
@@ -922,7 +922,7 @@ button,
             transform: translate3d(-2250px,0,0);
         }
     }
-    @keyframes bg {
+    @keyframes slide {
         0% {
             -moz-transform: translate3d(0,0,0);
             -webkit-transform: translate3d(0,0,0);
@@ -936,16 +936,15 @@ button,
             transform: translate3d(-2250px,0,0);
         }
     }
-    #bg {
-        background-size: 2250px auto;
+    #slide {
+        background-size: 1300px auto;
         width: 6750px;
     }
 
-
 /* Wide */
 @media screen and (max-width: 1680px) {
-    /* BG */
-    @-moz-keyframes bg {
+    /* slide */
+    @-moz-keyframes slide {
         0% {
             -moz-transform: translate3d(0,0,0);
             -webkit-transform: translate3d(0,0,0);
@@ -959,7 +958,7 @@ button,
             transform: translate3d(-1500px,0,0);
         }
     }
-    @-webkit-keyframes bg {
+    @-webkit-keyframes slide {
         0% {
             -moz-transform: translate3d(0,0,0);
             -webkit-transform: translate3d(0,0,0);
@@ -973,7 +972,7 @@ button,
             transform: translate3d(-1500px,0,0);
         }
     }
-    @-ms-keyframes bg {
+    @-ms-keyframes slide {
         0% {
             -moz-transform: translate3d(0,0,0);
             -webkit-transform: translate3d(0,0,0);
@@ -987,7 +986,7 @@ button,
             transform: translate3d(-1500px,0,0);
         }
     }
-    @keyframes bg {
+    @keyframes slide {
         0% {
             -moz-transform: translate3d(0,0,0);
             -webkit-transform: translate3d(0,0,0);
@@ -1001,16 +1000,16 @@ button,
             transform: translate3d(-1500px,0,0);
         }
     }
-    #bg {
+    #slide {
         background-size: 1100px auto;
-        width: 2250px;
+        width: 4500px;
     }
 }
 
 /* Normal */
 @media screen and (max-width: 1280px) {
-    /* BG */
-    @-moz-keyframes bg {
+    /* slide */
+    @-moz-keyframes slide {
         0% {
             -moz-transform: translate3d(0,0,0);
             -webkit-transform: translate3d(0,0,0);
@@ -1024,7 +1023,7 @@ button,
             transform: translate3d(-750px,0,0);
         }
     }
-    @-webkit-keyframes bg {
+    @-webkit-keyframes slide {
         0% {
             -moz-transform: translate3d(0,0,0);
             -webkit-transform: translate3d(0,0,0);
@@ -1038,7 +1037,7 @@ button,
             transform: translate3d(-750px,0,0);
         }
     }
-    @-ms-keyframes bg {
+    @-ms-keyframes slide {
         0% {
             -moz-transform: translate3d(0,0,0);
             -webkit-transform: translate3d(0,0,0);
@@ -1052,7 +1051,7 @@ button,
             transform: translate3d(-750px,0,0);
         }
     }
-    @keyframes bg {
+    @keyframes slide {
         0% {
             -moz-transform: translate3d(0,0,0);
             -webkit-transform: translate3d(0,0,0);
@@ -1066,7 +1065,7 @@ button,
             transform: translate3d(-750px,0,0);
         }
     }
-    #bg {
+    #slide {
         background-size: 990px auto;
         width: 2250px;
     }

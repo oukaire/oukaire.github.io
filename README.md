@@ -14,11 +14,11 @@ aj@lkn.io | @ajlkn
 
 ## Thanks to
 
-* Demo Images: [Unsplash], a radtastic collection of CC0 (public domain) images
-* Icons: [Font Awesome]
-* Other: [Responsive Tools]
+* [Unsplash], a radtastic collection of CC0 (public domain) images, for demo images
+* [Font Awesome] for icons
+* [Responsive Tools] for meaningful designs
 * [Sketches]
-* Fonts: Seyi Adediwura for Google fonts recommendation
+* Seyi Adediwura for Google fonts recommendation
 
 [License]: LICENSE
 [1]: https://html5up.net/license
