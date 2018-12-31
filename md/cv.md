@@ -4,7 +4,7 @@
 
 **Tufts University**, Medford, Massachusetts  
 B.S. in Biochemistry and Computer Science, May 2018  
-Honors: Dean's List (all semesters&mdash;<a onclick="flip()" role="button" href="#">see courses</a>), _summa cum laude_  
+Honors: Dean's List (all semesters&mdash;<a onclick="flip('.leaf')" role="button" href="#">see courses</a>), _summa cum laude_  
 Oliver Chapman Award  
 [Fares Scholarship][fares]
 
