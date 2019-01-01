@@ -4,6 +4,12 @@
     height: 30em;
     perspective: 1000px;
 }
+    @media screen and (max-width: 480px) {
+        .board {
+            width: 23em;
+            height: 32em;
+        }
+    }
 
 .card {
     width: 100%;
@@ -70,13 +76,13 @@
             background: #c8cccf;
         }
         @media screen and (max-width: 480px) {
-            .front {
-                padding: 4em 2em 2.5em 0em ;
+            .front, .back {
+                padding: 2em 0 0 0;
                 width: 100%;
             }
                 .front .avatar:before {
-                    left: -2em;
-                    width: calc(100% + 4em);
+                    left: 0;
+                    width: calc(100%);
                 }
         }
         body.is-preload .front {
