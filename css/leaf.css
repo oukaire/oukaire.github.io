@@ -8,6 +8,16 @@
     height: 100%;
     perspective: 40em;
 }
+    @media screen and (max-width: 1024px) {
+        .book {
+            width: 45em;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .book {
+            width: 35em;
+        }
+    }
     @media screen and (max-width: 480px) {
         .book {
             width: 23em;
