@@ -19,6 +19,7 @@ aj@lkn.io | @ajlkn
 * [Responsive Tools] for meaningful designs
 * [Sketches]
 * Seyi Adediwura for Google fonts recommendation
+* Vintus Okonkwo for my home picture
 
 [License]: LICENSE
 [1]: https://html5up.net/license
