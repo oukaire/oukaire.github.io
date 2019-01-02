@@ -18,7 +18,7 @@ aj@lkn.io | @ajlkn
 * [Font Awesome] for icons
 * [Responsive Tools] for meaningful designs
 * [Sketches]
-* Seyi Adediwura for Google fonts recommendation
+* Seyi Adediwura for notifying me on Alegreya google font
 * Vintus Okonkwo for my home picture
 
 [License]: LICENSE
