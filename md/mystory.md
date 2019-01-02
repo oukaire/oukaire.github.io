@@ -1,3 +1,5 @@
+From friendly feedbacks, I learned to share stories of myself. Here I share more of a miniature story, not to ruin a book I hope to write.
+
 ### Background
 I was born in Abuja, Nigeria where I completed most of my early schooling. I graduated from [Federal Government Academy](http://www.fgasuleja.com.ng) in 2012 and [African Leadership Academy](http://www.africanleadershipacademy.org) in 2014.
 

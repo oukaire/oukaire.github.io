@@ -87,8 +87,8 @@
                 width: 100%;
             }
                 .front nav, .front p {
-                    margin-left: 1.8em;
-                    margin-right: 1.8em;
+                    margin-left: 2em;
+                    margin-right: 2em;
                 }
                 nav a {
                     margin: 0 2em 0 0;
@@ -125,7 +125,7 @@
 .content {
     height: calc(100% - 7em);
     overflow: auto;
-    padding: 0.4em 3.5em 1em 3em;
+    padding: 1em 3.5em 1em 3em;
     text-align: left;
     font-size: 1em;
     line-height: 1.4em;
