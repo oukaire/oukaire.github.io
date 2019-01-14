@@ -20,6 +20,7 @@ aj@lkn.io | @ajlkn
 * [Sketches]
 * Seyi Adediwura for notifying me on Alegreya google font
 * Vintus Okonkwo for my home picture
+* Phil Ewels for card flip idea
 
 [License]: LICENSE
 [1]: https://html5up.net/license
