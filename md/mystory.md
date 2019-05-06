@@ -1,5 +1,8 @@
 From friendly feedbacks, I learned to share stories of myself. Here I share more of a miniature story, not to ruin a book I hope to write.
 
+### But first: Updates
+(for avid Game of Thrones fans): Check on my [Predictions on Game of Thrones Season Eight](https://asoiaf.westeros.org/index.php?%2Ftopic%2F153705-predictions-on-game-of-thrones-season-eight%2F&tab=comments&fbclid=IwAR3HC4YsQSflfkDV61zVIAbkto03-u53S2wJab9TmAX_ssSzqzGt9mpEOWI#comment-8328996)
+
 ### Background
 I was born in Abuja, Nigeria where I completed most of my early schooling. I graduated from [Federal Government Academy](http://www.fgasuleja.com.ng) in 2012 and [African Leadership Academy](http://www.africanleadershipacademy.org) in 2014.
 
