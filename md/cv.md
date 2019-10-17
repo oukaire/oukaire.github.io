@@ -19,8 +19,8 @@ Club soccer and table-tennis
 
 **Pembroke College, University of Oxford**, Oxford, United Kingdom  
 October 2016 to May 2017  
-Junior year abroad, studied Biochemistry  
-Honors: Javi Leverson Award  
+[Junior year abroad, studied Biochemistry][oxyear]
+Honors: Javi Leverson Award   
 
 Activities:  
 [the Oxford Union][oxunion]  
@@ -120,6 +120,7 @@ Traveling, cooking, dancing, playing soccer, following global political news, re
 [nsbe]: https://sites.tufts.edu/nsbe/
 [oxunion]: https://www.oxford-union.org/
 [oubs]: http://www.bioch.ox.ac.uk/oubs/
+[oxyear]: https://www.youtube.com/watch?v=r5Z0Oinp-JQ&t=6s
 [pmbsoccer]: https://www.pmb.ox.ac.uk/life-pembroke/clubs-societies/sports
 [encore]: https://www.encoreoxford.com/
 [atlantis]: https://atlantisglobal.org/
