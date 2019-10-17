@@ -11,7 +11,7 @@ Oliver Chapman Award
 Activities:  
 [Tufts Sharewood Project][sharewood]  
 [Premedical Society][premed]  
-[JumboCode][jumbocode]
+[JumboCode][jumbocode]  
 National Society of Black Engineers ([NSBE][nsbe])  
 African Dance Collective, now COCOA  
 African Students Organisation  
