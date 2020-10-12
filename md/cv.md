@@ -20,7 +20,7 @@ Club soccer and table-tennis
 **Pembroke College, University of Oxford**, Oxford, United Kingdom  
 October 2016 to May 2017  
 [Junior year abroad, studied Biochemistry][oxyear]
-Honors: Javi Leverson Award   
+Honors: Jaki Leverson Award   
 
 Activities:  
 [the Oxford Union][oxunion]  
