@@ -1,6 +1,10 @@
-<p id="address">Onyinyechi Ukaire<br>400 Technology Square<br>Cambridge, MA 02139</p>
+<p id="address">Onyinyechi Ukaire<br>100 Main St<br>Cambridge, MA 02142</p>
 
 ### Education
+
+**Massachusetts Institute of Technology**, Cambridge, Massachusetts  
+M.B.A. Candidate, Sloan School of Management, June 2023   
+S.M. Candidate, Computer Science and Engineering, School of Engineering, June 2023
 
 **Tufts University**, Medford, Massachusetts  
 B.S. in Biochemistry and Computer Science, May 2018  
