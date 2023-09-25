@@ -1,10 +1,11 @@
-<p id="address">Onyinyechi Ukaire<br>100 Main St<br>Cambridge, MA 02142</p>
+<p id="address">Onyinyechi Ukaire<br>333 108th Ave NE<br>Bellevue, WA 98004</p>
 
 ### Education
 
 **Massachusetts Institute of Technology**, Cambridge, Massachusetts  
-M.B.A. Candidate, Sloan School of Management, June 2023   
-S.M. Candidate, Computer Science and Engineering, School of Engineering, June 2023
+M.B.A., Sloan School of Management, June 2023   
+S.M., E.E.C.S., School of Engineering, June 2023   
+[Fellowship: Leaders for Global Operations][lgo]
 
 **Tufts University**, Medford, Massachusetts  
 B.S. in Biochemistry and Computer Science, May 2018  
@@ -47,9 +48,9 @@ Best student in Chemistry and Biology, International Academy for the Gifted and 
 ### Experience
 
 **Global Citizens Youth Summit**  
-Summer 2014 - Present  
+Summers 2014, 2019  
 Harvard Faculty Club, Cambridge, Massachusetts  
-_Rakuten Scholar_  
+_Rakuten Scholar_ and Teaching Assistant
 Designed “Live and let live," a project that researched health stress. Marketed GCYS with flyers and media adverts.
 
 **Hospital de Santa Maria, Centro Hospitalar Lisboa Norte**  
@@ -129,3 +130,4 @@ Traveling, cooking, dancing, playing soccer, following global political news, re
 [encore]: https://www.encoreoxford.com/
 [atlantis]: https://atlantisglobal.org/
 [ltg]: https://dceg.cancer.gov/about/staff-directory/biographies/K-N/prokunina-olsson-ludmila
+[lgo]: https://lgo.mit.edu/
