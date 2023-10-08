@@ -875,7 +875,7 @@ button,
     background: rgba(255, 255, 255, 0) url("../images/slide.png") bottom left;
     background-repeat: repeat-x;
     height: 75%;
-    position: fixed;
+    position: fixed; 
     top: 0;
     left: 0;
     opacity: 1;

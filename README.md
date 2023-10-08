@@ -3,11 +3,11 @@
 ## TODO
 
 - [x] Responsive Tools
-- [x] Sass
+- [ ] Sass
 
 ## [License]
 
-Identity by [HTML5 UP]  
+Identity template by [HTML5 UP]  
 Free for personal and commercial use under the CCA 3.0 [license][1]  
 by AJ   
 aj@lkn.io | @ajlkn
