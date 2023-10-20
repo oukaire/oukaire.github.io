@@ -6,3 +6,14 @@ if ('addEventListener' in window) {
 const flip = (which) => {
 	$(which).toggleClass('flipped');
 }
+
+// $(function(){
+//   $('.flipper').click(function(e){
+//     e.preventDefault();
+//     if($(this).attr('href') != '#'){
+//       $('.back section').hide();
+//       $($(this).attr('href')).show();
+//     }
+//     $("#card").toggleClass('flipped');
+//   });
+// })
